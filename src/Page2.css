@@ -1,0 +1,73 @@
+.page1 {
+    margin: auto;
+    display: flex;
+    justify-items: center;
+}
+
+.form {
+    padding: 25px;
+    color: white;
+}
+
+.form input {
+    position: relative;
+    padding: 10px;
+    margin-left: 40px;
+    color: black;
+    border-radius: 30px;
+    width: 15%;
+    background-color: rgb(241, 241, 241);
+    border: none;
+    right: -100px;
+}
+
+.tableinput {
+    position: relative;
+    padding: 8px;
+    margin-left: 50px;
+    color: black;
+    border-radius: 30px;
+    width: 30%;
+    border: none;
+    right: -300px;
+    background: url('./image/search.png') no-repeat scroll 245px;
+    background-size: 25px;
+    background-color: rgb(226, 224, 224);
+}
+
+.tablediv {
+    width: 70%;
+    color: grey;
+    font-size: small;
+    padding: 10px;
+    text-align: center;
+    margin: 100px;
+    position: relative;
+    bottom: 100px;
+    box-shadow: 0px 0px 3px 1px #888888;
+    border-radius: 10px;
+    min-height: 400px;
+    background: #F9FAFC;
+}
+
+.table {
+    width: 80%;
+}
+
+.table th {
+    font-size: small;
+    padding: 10px;
+    text-align: center;
+    font-size: medium;
+    font-weight: 400;
+    text-align: left;
+    color: rgb(90, 90, 90);
+}
+
+.table td {
+    text-align: left;
+    padding: 5px;
+    text-align: center;
+    text-align: left;
+    color: rgb(90, 90, 90);
+}

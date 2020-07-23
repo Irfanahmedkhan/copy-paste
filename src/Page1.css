@@ -1,0 +1,171 @@
+.page1 {
+    margin: 0;
+    display: flex;
+    justify-items: left;
+    text-align: left;
+    flex-direction: column;
+}
+
+.date {
+    margin-top: 20px;
+    position: relative;
+    left: 20px;
+}
+
+.month, .year {
+    background-color: rgb(247, 247, 247);
+    color: rgb(107, 107, 107);
+    border-radius: 5px;
+    margin-left: 15px;
+    padding: 1px 8px;
+    border: none;
+    border: 1px solid rgb(214, 214, 214);
+}
+
+.button1, .button2 {
+    position: relative;
+    background-color: rgb(255, 255, 255);
+    color: rgb(107, 107, 107);
+    left: 20px;
+    width: 40px;
+    border: none;
+    border: 1px solid rgb(214, 214, 214);
+}
+
+.button1:not(:last-child) {
+    border-right: none;
+    /* Prevent double borders */
+}
+
+.button1 {
+    border-top-left-radius: 8px;
+    border-bottom-left-radius: 8px;
+}
+
+.button2 {
+    border-top-right-radius: 8px;
+    border-bottom-right-radius: 8px;
+}
+
+.tablediv {
+    display: flex;
+    justify-items: center;
+    text-align: center;
+    position: relative;
+    top: -60px;
+}
+
+.table {
+    display: flex;
+    width: 100%;
+    color: rgb(107, 107, 107);
+    font-size: small;
+    padding: 10px;
+    margin: 100px;
+    position: relative;
+    box-shadow: 0px 0px 8px 1px #c9c8c8;
+    border-radius: 3px;
+    min-height: 400px;
+    background: #F9FAFC;
+    left: -70px;
+}
+
+.table th {
+    padding: 10px;
+    font-weight: 600;
+    text-align: center;
+    font-size: 10px;
+    text-align: left;
+    color: rgb(107, 107, 107);
+    text-transform: uppercase;
+}
+
+.table td {
+    text-align: center;
+    padding: 10px;
+    color: rgb(107, 107, 107);
+    font-size: 12px;
+}
+
+.table td, .table th {
+    text-align: left;
+}
+
+#right, .table td+td, .table th+th {
+    text-align: center;
+}
+
+.recurrence {
+    width: 70%;
+    color: rgb(107, 107, 107);
+    font-size: small;
+    padding: 10px;
+    margin: 100px;
+    position: relative;
+    box-shadow: 0px 0px 8px 1px #c9c8c8;
+    border-radius: 3px;
+    min-height: 400px;
+    background: #F9FAFC;
+    left: -150px;
+}
+
+.recurrence {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    position: relative;
+    padding: 10px;
+    margin-left: 50px;
+    color: rgb(107, 107, 107);
+    border-radius: 3px;
+    background-size: 25px;
+}
+
+.recurrence label {
+    color: rgb(107, 107, 107);
+    padding-bottom: 5px;
+    font-size: 10px;
+}
+
+.recurrence h4 {
+    margin-top: 0;
+}
+
+.recurrence input, .daily {
+    border-radius: 5px;
+    background-color: white;
+    padding: 3px;
+    border: 1px solid rgb(182, 180, 180);
+    margin-bottom: 15px;
+    color: rgb(107, 107, 107);
+}
+
+.startdate, .stopdate {
+    background: url(./image/date.png) no-repeat scroll 360px;
+    background-size: 20px;
+}
+
+.button button {
+    margin-right: 10px;
+    font-size: 10px;
+    width: 170px;
+    border-radius: 5px;
+    background-color: #2A3755;
+    padding: 5px;
+    border: 1px solid rgb(95, 95, 95);
+    margin-bottom: 15px;
+    color: white;
+    float: left;
+    position: relative;
+    top: 20px;
+}
+
+.every {
+    width: 70%;
+    vertical-align: center;
+}
+
+.value {
+    border-bottom: 1px solid rgb(143, 143, 143);
+    min-height: 50px;
+}
