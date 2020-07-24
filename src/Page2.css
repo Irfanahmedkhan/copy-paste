@@ -6,12 +6,11 @@
 
 .form {
     padding: 25px;
-    color: white;
 }
 
 .form input {
     position: relative;
-    padding: 10px;
+    padding: 5px;
     margin-left: 40px;
     color: black;
     border-radius: 30px;
@@ -19,20 +18,21 @@
     background-color: rgb(241, 241, 241);
     border: none;
     right: -100px;
+    font-size: small;
 }
 
 .tableinput {
-    position: relative;
-    padding: 8px;
-    margin-left: 50px;
+    position: absolute;
+    padding: 5px;
     color: black;
     border-radius: 30px;
     width: 30%;
     border: none;
-    right: -300px;
-    background: url('./image/search.png') no-repeat scroll 245px;
-    background-size: 25px;
-    background-color: rgb(226, 224, 224);
+    right: 20px;
+    background: url('./image/search.png') no-repeat scroll 98%;
+    background-size: 15px;
+    background-color: rgb(241, 241, 241);
+    font-size: small;
 }
 
 .tablediv {
@@ -40,7 +40,6 @@
     color: grey;
     font-size: small;
     padding: 10px;
-    text-align: center;
     margin: 100px;
     position: relative;
     bottom: 100px;
@@ -51,23 +50,32 @@
 }
 
 .table {
-    width: 80%;
+    width: 85%;
+    position: relative;
+    top: 40px;
 }
 
 .table th {
+    padding: 5px;
     font-size: small;
-    padding: 10px;
-    text-align: center;
-    font-size: medium;
-    font-weight: 400;
     text-align: left;
     color: rgb(90, 90, 90);
+    font-weight: 600;
 }
 
 .table td {
-    text-align: left;
     padding: 5px;
-    text-align: center;
     text-align: left;
     color: rgb(90, 90, 90);
+    font-size: small;
+}
+
+.table th+th+th+th+th {
+    text-align: center;
+}
+
+#right, .table td+td+td+td+td {
+    text-align: center;
+    font-weight: 600;
+    color: blue;
 }

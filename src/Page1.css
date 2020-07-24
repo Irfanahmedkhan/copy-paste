@@ -24,7 +24,7 @@
 
 .button1, .button2 {
     position: relative;
-    background-color: rgb(255, 255, 255);
+    background-color: rgb(247, 247, 247);
     color: rgb(107, 107, 107);
     left: 20px;
     width: 40px;
@@ -34,7 +34,6 @@
 
 .button1:not(:last-child) {
     border-right: none;
-    /* Prevent double borders */
 }
 
 .button1 {
@@ -66,14 +65,13 @@
     box-shadow: 0px 0px 8px 1px #c9c8c8;
     border-radius: 3px;
     min-height: 400px;
-    background: #F9FAFC;
+    background: #f9fafc;
     left: -70px;
 }
 
 .table th {
     padding: 10px;
     font-weight: 600;
-    text-align: center;
     font-size: 10px;
     text-align: left;
     color: rgb(107, 107, 107);
@@ -96,29 +94,21 @@
 }
 
 .recurrence {
-    width: 70%;
-    color: rgb(107, 107, 107);
-    font-size: small;
-    padding: 10px;
-    margin: 100px;
-    position: relative;
-    box-shadow: 0px 0px 8px 1px #c9c8c8;
-    border-radius: 3px;
-    min-height: 400px;
-    background: #F9FAFC;
-    left: -150px;
-}
-
-.recurrence {
     display: flex;
     flex-direction: column;
     text-align: left;
     position: relative;
+    width: 70%;
+    font-size: small;
+    margin: 100px;
+    box-shadow: 0px 0px 8px 1px #c9c8c8;
+    min-height: 400px;
+    background: #f9fafc;
+    left: -150px;
     padding: 10px;
     margin-left: 50px;
     color: rgb(107, 107, 107);
     border-radius: 3px;
-    background-size: 25px;
 }
 
 .recurrence label {
@@ -127,35 +117,31 @@
     font-size: 10px;
 }
 
-.recurrence h4 {
-    margin-top: 0;
-}
-
 .recurrence input, .daily {
     border-radius: 5px;
     background-color: white;
-    padding: 3px;
+    padding: 5px;
     border: 1px solid rgb(182, 180, 180);
     margin-bottom: 15px;
     color: rgb(107, 107, 107);
+    font-size: 10px;
 }
 
 .startdate, .stopdate {
-    background: url(./image/date.png) no-repeat scroll 360px;
+    background: url(./image/date.png) no-repeat scroll 98%;
     background-size: 20px;
 }
 
 .button button {
     margin-right: 10px;
     font-size: 10px;
-    width: 170px;
+    width: 150px;
     border-radius: 5px;
-    background-color: #2A3755;
+    background-color: #2a3755;
     padding: 5px;
     border: 1px solid rgb(95, 95, 95);
     margin-bottom: 15px;
     color: white;
-    float: left;
     position: relative;
     top: 20px;
 }
