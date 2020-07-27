@@ -128,7 +128,7 @@
 }
 
 .startdate, .stopdate {
-    background: url(./image/date.png) no-repeat scroll 98%;
+    background: url(../image/date.png) no-repeat scroll 98%;
     background-size: 20px;
 }
 

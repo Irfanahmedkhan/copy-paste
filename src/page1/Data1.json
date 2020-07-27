@@ -1,0 +1,30 @@
+{
+  "Data1": {
+    "Date": "01/02/2021 (Monday)",
+    "demand": 18
+  },
+  "Data2": {
+    "Date": "01/02/2021 (Tuesday)",
+    "demand": 28
+  },
+  "Data3": {
+    "Date": "01/02/2021 (Wednesday)",
+    "demand": 38
+  },
+  "Data4": {
+    "Date": "01/02/2021 (Thursday)",
+    "demand": 48
+  },
+  "Data5": {
+    "Date": "01/02/2021 (Friday)",
+    "demand": 58
+  },
+  "Data6": {
+    "Date": "01/02/2021 (Saturday)",
+    "demand": 68
+  },
+  "Data7": {
+    "Date": "01/02/2021 (Friday)",
+    "demand": 78
+  }
+}
