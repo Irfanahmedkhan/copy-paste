@@ -8,9 +8,8 @@ import TableHead from "@material-ui/core/TableHead";
 import TableRow from "@material-ui/core/TableRow";
 import "./Page1.css";
 
-import Data from './Data1.json'
 
-function Table1() {
+function Table1(props) {
   return (
     <div className="table">
       <TableContainer>
@@ -21,8 +20,8 @@ function Table1() {
               <TableCell >Expected Demand</TableCell>
             </TableRow>
           </TableHead>
-                  {Object.keys(Data).map((key) => {
-                      const data = Data[key];
+                  {Object.keys(props.data).map((key) => {
+                      const data = props.data[key];
                       return (
                           <TableBody>
                               <TableRow>

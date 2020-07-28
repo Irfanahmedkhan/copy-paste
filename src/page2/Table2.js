@@ -7,11 +7,10 @@ import TableHead from "@material-ui/core/TableHead";
 import TableRow from "@material-ui/core/TableRow";
 import Checkbox from "@material-ui/core/Checkbox";
 import "./Page2.css";
-import Data from "./Data2.json";
 
-function Table2() {
+function Table2(props) {
   return (
-    <div className="tablediv">
+    <div className="tablediv-2">
       <input type="search" className="tableinput"></input>
 
       <div className="table">
@@ -31,10 +30,12 @@ function Table2() {
               </TableRow>
             </TableHead>
 
-            {Object.keys(Data).map((key) => {
-              const data = Data[key];
+            {Object.keys(props.data).map((key) => {
+              const data = props.data[key];
+              console.log("data " , data)
+              console.log("key " , key)
               return (
-                <TableBody>
+                <TableBody key={data.UnitName}>
                   <TableRow>
                     <TableCell>
                       <Checkbox />

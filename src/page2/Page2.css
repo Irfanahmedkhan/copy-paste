@@ -1,8 +1,8 @@
-.page1 {
+/* .page1 {
     margin: auto;
     display: flex;
     justify-items: center;
-}
+} */
 
 .form {
     padding: 25px;
@@ -35,7 +35,7 @@
     font-size: small;
 }
 
-.tablediv {
+.tablediv-2 {
     width: 70%;
     color: grey;
     font-size: small;
@@ -52,7 +52,7 @@
 .table {
     width: 85%;
     position: relative;
-    top: 40px;
+    /* top: 40px; */
 }
 
 .table th {
